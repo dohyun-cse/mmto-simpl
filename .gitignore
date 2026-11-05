@@ -1,0 +1,29 @@
+# Build directories and CMake files
+build/
+build-debug/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+*.a
+*.o
+
+# Local MFEM location (see README)
+user.cmake
+
+# Outputs
+ParaView/
+*.csv
+*.gf
+*.mesh
+*.[0-9][0-9][0-9][0-9][0-9][0-9]
+
+# Editor and OS files
+.DS_Store
+.cache/
+.vscode/
+
+# Tracked dotfiles
+!.gitignore
+!.astylerc
